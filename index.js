@@ -1,4 +1,4 @@
-\\add (a,b) = a + // BUG:
+//add (a,b) = a + // BUG:
 
 function add(a,b) {
   return `a+b`;
