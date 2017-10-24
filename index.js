@@ -1,4 +1,4 @@
-//add (a,b) = a + // BUG:
+//add (a,b) = a + //
 
 function add(a, b) {
   return a + b;
@@ -8,4 +8,16 @@ function add(a, b) {
 
 function subtract(a, b) {
   return a - b;
+}
+
+//multiply(a, b) --> a * b
+
+function multiply(a, b) {
+  return a * b;
+}
+
+//divide(a, b) -> a/b
+
+function divide(a, b) {
+  return a / b;
 }
