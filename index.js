@@ -28,3 +28,10 @@ function inc(n) {
   n += 1;
   return n;
 }
+
+//dec(n) decrements n by 1
+
+function dec(n) {
+  n -= 1;
+  return n;
+}
