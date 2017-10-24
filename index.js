@@ -21,3 +21,10 @@ function multiply(a, b) {
 function divide(a, b) {
   return a / b;
 }
+
+// inc(n) incremeents n and returns the results
+
+function inc(n) {
+  n += 1;
+  return n;
+}
