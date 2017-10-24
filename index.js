@@ -35,3 +35,9 @@ function dec(n) {
   n -= 1;
   return n;
 }
+
+// makeInt(n) returns NaN when appropriate
+
+function makeInt(n) {
+  return parseInt(n, 10);
+}
